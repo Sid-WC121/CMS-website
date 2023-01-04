@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "role":"Admin"
+    },
+    {
+      "id": 2,
+      "name": "Mentor",
+      "email": "mentor@gmail.com",
+      "role":"Mentor"
+    },
+    {
+      "id": 3,
+      "name": "Member",
+      "email": "member@gmail.com",
+      "role":"Member"
+    }
+  ]
+}
