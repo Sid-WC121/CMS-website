@@ -1,20 +1,23 @@
 {
   "user": [
     {
-      "id": 1,
+      "id": "admins",
       "name": "Admin",
+      "password":"admin",
       "email": "admin@gmail.com",
       "role":"Admin"
     },
     {
-      "id": 2,
+      "id": "mentors",
       "name": "Mentor",
+      "password":"Mentor",
       "email": "mentor@gmail.com",
       "role":"Mentor"
     },
     {
-      "id": 3,
+      "id": "members",
       "name": "Member",
+      "password":"Member",
       "email": "member@gmail.com",
       "role":"Member"
     }
