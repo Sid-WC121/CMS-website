@@ -2,21 +2,21 @@
   "user": [
     {
       "id": "admins",
-      "name": "Admin",
+      "username": "Admin",
       "password":"admin",
       "email": "admin@gmail.com",
       "role":"Admin"
     },
     {
       "id": "mentors",
-      "name": "Mentor",
+      "username": "Mentor",
       "password":"Mentor",
       "email": "mentor@gmail.com",
       "role":"Mentor"
     },
     {
       "id": "members",
-      "name": "Member",
+      "username": "Member",
       "password":"Member",
       "email": "member@gmail.com",
       "role":"Member"
