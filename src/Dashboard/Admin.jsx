@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
+
+
 const Admin = () => {
     const usenavigate = useNavigate();
     useEffect(() => {
@@ -20,6 +22,9 @@ const Admin = () => {
                 <Link to={'/adduser'}>AddUser</Link>
             </div>
             <h1 className="text-center">AdminDashboard</h1>
+            <div>
+                
+            </div>
         </div>
     );
 }
