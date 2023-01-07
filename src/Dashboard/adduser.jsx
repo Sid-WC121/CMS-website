@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Admin = () => {
+const adduser = () => {
     const usenavigate = useNavigate();
     useEffect(() => {
         let username=sessionStorage.getItem('username');
@@ -19,9 +19,9 @@ const Admin = () => {
             <div>
                 <Link to={'/adduser'}>AddUser</Link>
             </div>
-            <h1 className="text-center">AdminDashboard</h1>
+            <h1 className="text-center">user</h1>
         </div>
     );
 }
 
-export default Admin;
+export default adduser;

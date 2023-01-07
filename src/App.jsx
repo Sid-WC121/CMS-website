@@ -7,6 +7,7 @@ import Members from './pages/Members';
 import Research from './pages/Research';
 import Projects from './pages/Projects';
 import Login from './login';
+import Adduser from './Dashboard/adduser';
 import Admin from './Dashboard/Admin';
 import Mentor from './Dashboard/Mentor';
 import { ToastContainer } from 'react-toastify';
@@ -23,6 +24,7 @@ function App() {
         <Route path='/members' element={<Members/>}></Route>
         <Route path='/research' element={<Research/>}></Route>
         <Route path='/projects' element={<Projects/>}></Route>
+        <Route path='/adduser' element={<Adduser/>}></Route>
         <Route path='/admin' element={<Admin/>}></Route>
         <Route path='/mentor' element={<Mentor/>}></Route>
       </Routes>
