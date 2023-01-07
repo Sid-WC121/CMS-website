@@ -27,6 +27,6 @@ npm install json-server
 
 [JSON Test Server repo](https://github.com/Sid-WC121/Test-JSON)
 
-### Vercel test deployment link
+### JSON Server Vercel test deployment link
 
 [https://test-json-ashy.vercel.app/](https://test-json-ashy.vercel.app/)
