@@ -9,7 +9,7 @@ const Admin = () => {
             usenavigate('/login');
         }
     }, []);
-
+    
     return (
         <div>
             <div className="header">

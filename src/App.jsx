@@ -7,11 +7,11 @@ import Members from './pages/Members';
 import Research from './pages/Research';
 import Projects from './pages/Projects';
 import Login from './login';
+import Admin from './Dashboard/Admin';
+import Mentor from './Dashboard/Mentor';
 import { ToastContainer } from 'react-toastify';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <ToastContainer></ToastContainer>
@@ -23,6 +23,8 @@ function App() {
         <Route path='/members' element={<Members/>}></Route>
         <Route path='/research' element={<Research/>}></Route>
         <Route path='/projects' element={<Projects/>}></Route>
+        <Route path='/admin' element={<Admin/>}></Route>
+        <Route path='/mentor' element={<Mentor/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

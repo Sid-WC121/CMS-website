@@ -12,6 +12,10 @@ const Home = () => {
 
     return (
         <div>
+            <div>
+                <Link to={'/admin'}>Admin</Link>
+                <Link to={'/mentor'}>Mentor</Link>
+            </div>
             <div className="header">
                 <Link to={'/'}>Home</Link>
                 <Link to={'/about'}>About</Link>
