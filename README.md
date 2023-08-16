@@ -1,4 +1,4 @@
-# Bi0s-Hardware-CMS (Temporarily on hold)
+# CMS (Temporarily on hold)
 ### Instructions to run localy
 ***
 ```
